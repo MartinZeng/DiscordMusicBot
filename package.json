@@ -1,0 +1,25 @@
+{
+  "name": "discordmusicbot",
+  "version": "1.0.0",
+  "description": "Discord Music Bot",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Martin Zeng",
+  "license": "ISC",
+  "dependencies": {
+    "@discord-player/extractor": "^4.4.0",
+    "@discordjs/builders": "^1.6.3",
+    "@discordjs/opus": "^0.9.0",
+    "@discordjs/rest": "^1.7.1",
+    "@discordjs/voice": "^0.16.0",
+    "@ffmpeg-installer/ffmpeg": "^1.1.0",
+    "discord-api-types": "^0.37.47",
+    "discord-player": "^6.6.1",
+    "discord.js": "^14.11.0",
+    "dotenv": "^16.3.1",
+    "opusscript": "^0.0.8",
+    "play-dl": "^1.9.6"
+  }
+}
