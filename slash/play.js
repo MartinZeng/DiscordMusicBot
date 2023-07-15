@@ -1,7 +1,7 @@
-const { SlashCommandBuilder }   = require("@discordjs/builders")
-const { useMainPlayer }       = require("discord-player")
-const { EmbedBuilder }          = require("discord.js")
-const Language                  = require("../strings.js")
+const { SlashCommandBuilder } = require("@discordjs/builders")
+const { useMainPlayer } = require("discord-player")
+const { EmbedBuilder } = require("discord.js")
+const Language = require("../strings.js")
 
 module.exports = {
     data: new SlashCommandBuilder()
